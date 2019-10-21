@@ -17,18 +17,24 @@ SAMTOOLS=~/samtools/samtools
 BWA=~/bwa/bwa
 
 # http://bowtie-bio.sourceforge.net/index.shtml
-BOWTIE=~/bowtie2-2.3.0/bowtie2
-BOWTIEBUILD=~/bowtie2-2.3.0/bowtie2-build
+BOWTIE=~/bowtie2-2.3.5.1/bowtie2
+BOWTIEBUILD=~/bowtie2-2.3.5.1/bowtie2-build
 
 # https://github.com/genome/pindel
+# You may face a problem regarding abs(unsigned int). to resolve it change it to abs(int(unsigned int)) 
+# change line no 1557 to the following 
+# if (abs(int (All[index_a].FirstPos - All[index_b].FirstPos)) < 10 && abs(int (All[index_a].SecondPos - All[index_b].SecondPos)) < 10 && All[index_a].NumSupport + All[index_b].NumSupport >= cutoff) {
 PINDEL=~/pindel/pindel
 PINDEL2VCF=~/pindel/pindel2vcf
 
 # https://github.com/GATB/MindTheGap
 MINDTHEGAP=~/MindTheGap/build/bin/MindTheGap
 
-GAPFILLER=~/gapfiller-1.10/GapFiller.pl
+# https://sourceforge.net/projects/gapfiller/
+GAPFILLER=~/gapfiller-2.1.1/GapFiller.pl
+# https://sourceforge.net/projects/soapdenovo2/files/GapCloser/src/r6/
 GAPCLOSER=~/GapCloser/GapCloser
+# http://www.bcgsc.ca/platform/bioinfo/software/abyss
 SEALER=~/abyss-1.9.0/Sealer/abyss-sealer
 
 # GNU time
