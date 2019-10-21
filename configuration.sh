@@ -33,9 +33,10 @@ MINDTHEGAP=~/MindTheGap/build/bin/MindTheGap
 # https://sourceforge.net/projects/gapfiller/
 GAPFILLER=~/gapfiller-2.1.1/GapFiller.pl
 # https://sourceforge.net/projects/soapdenovo2/files/GapCloser/src/r6/
-GAPCLOSER=~/GapCloser/GapCloser
+GAPCLOSER=~/GapCloser-src-v1.12-r6/v1.12-r6/bin
 # http://www.bcgsc.ca/platform/bioinfo/software/abyss
-SEALER=~/abyss-1.9.0/Sealer/abyss-sealer
+# Before installing abyss go ahead and install sparsehash from https://github.com/sparsehash/sparsehash
+SEALER=~/abyss-2.1.5/Sealer/abyss-sealer
 
 # GNU time
 TIME=/usr/bin/time
