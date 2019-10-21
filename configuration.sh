@@ -41,6 +41,8 @@ SEALER=~/abyss-1.9.0/Sealer/abyss-sealer
 TIME=/usr/bin/time
 
 # Included as git submodule
+# Use this one instead https://github.com/rikuu/Gap2Seq. 
+# I have problem while installing the given `Gap2Seq` inside the eval-insertfill
 GAP2SEQ=$DIR/Gap2Seq/build/Gap2Seq-core
 GAPCUTTER=$DIR/Gap2Seq/build/GapCutter
 EXTRACT=$DIR/Gap2Seq/build/ReadFilter
